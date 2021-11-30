@@ -44,6 +44,7 @@ requirements:
     - seamm-util
     - six
     - sqlalchemy
+    - swagger-ui-bundle
     - wtforms
 
 test:
