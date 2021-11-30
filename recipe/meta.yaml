@@ -1,6 +1,6 @@
 {% set name = "seamm-dashboard" %}
-{% set version = "2021.11.23.1" %}
-{% set sha256 = "1c63c7ea2ef0f7a2a25cbccaded7f392341c6dbb3b4f7ed31127eadcecc32958" %}
+{% set version = "2021.11.30" %}
+{% set sha256 = "291e0a729a7ae346008df1d43e8b96a66f024d31ab1048990091dbfe0e476c0d" %}
 
 package:
   name: {{ name|lower }}
@@ -44,6 +44,7 @@ requirements:
     - seamm-util
     - six
     - sqlalchemy
+    - swagger-ui-bundle
     - wtforms
 
 test:
