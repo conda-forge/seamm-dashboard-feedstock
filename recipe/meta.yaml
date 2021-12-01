@@ -25,7 +25,7 @@ requirements:
     - setuptools
   run:
     - python >=3.8
-    - connexion
+    - connexion >=2.7
     - email-validator
     - fasteners
     - flask >2.0
