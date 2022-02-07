@@ -1,6 +1,6 @@
 {% set name = "seamm-dashboard" %}
-{% set version = "2022.2.1" %}
-{% set sha256 = "9af7b75778c3fe34d9248facfab84e4e77cddb53d805b71fa518945ef4339078" %}
+{% set version = "2022.2.2" %}
+{% set sha256 = "75268b9ce8924fb2555f35f4d0070a4bf5ceb777139d9aa659ea070cd4878991" %}
 
 package:
   name: {{ name|lower }}
