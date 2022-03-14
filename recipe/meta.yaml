@@ -46,6 +46,8 @@ requirements:
     - sqlalchemy
     - swagger-ui-bundle
     - wtforms
+    - flask-compress
+    - waitress
 
 test:
   imports:
