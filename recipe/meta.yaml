@@ -1,6 +1,6 @@
 {% set name = "seamm-dashboard" %}
-{% set version = "2022.2.27" %}
-{% set sha256 = "bf7b1ae2ab55af5dbfaf8293320c0ca4a25be834b43c4d46c4f08cffc2f490c5" %}
+{% set version = "2022.3.14" %}
+{% set sha256 = "0c0f691289dc7ebfc877c1ee33499ebd38253e5ffdd0e551243d0d9c3a09ce92" %}
 
 package:
   name: {{ name|lower }}
@@ -46,6 +46,8 @@ requirements:
     - sqlalchemy
     - swagger-ui-bundle
     - wtforms
+    - flask-compress
+    - waitress
 
 test:
   imports:
