@@ -1,6 +1,6 @@
 {% set name = "seamm-dashboard" %}
-{% set version = "2022.3.18" %}
-{% set sha256 = "3bce6de3c4b913b932bb36cc39f00eff181d53a9f94f8f2f5b45d971cdb57f28" %}
+{% set version = "2022.3.30" %}
+{% set sha256 = "8d30edab7ccb12b29afb78d2613514021cc39b6d832b17451911b6de199e8e0d" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,6 @@ requirements:
     - flask-authorize
     - flask-bootstrap
     - flask-cors
-    - flask-debugtoolbar
     - flask-jwt-extended >=4.1.0
     - flask-mail
     - flask-marshmallow
