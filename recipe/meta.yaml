@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - seamm_dashboard=seamm_dashboard.results_dashboard:run
@@ -42,7 +42,7 @@ requirements:
     - seamm-datastore
     - seamm-util
     - six
-    - sqlalchemy
+    - sqlalchemy <2.0
     - swagger-ui-bundle
     - wtforms
     - flask-compress
