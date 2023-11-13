@@ -55,7 +55,6 @@ test:
     - pip check
   requires:
     - pip
-    - ply
 
 about:
   home: https://github.com/molssi-seamm/seamm_dashboard
