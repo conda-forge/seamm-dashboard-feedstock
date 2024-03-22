@@ -21,10 +21,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.11
     - setuptools
   run:
-    - python >=3.8
+    - python >=3.11
     - connexion >=2.7,<3.0
     - email-validator
     - fasteners
