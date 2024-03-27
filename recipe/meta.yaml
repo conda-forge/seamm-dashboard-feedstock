@@ -1,6 +1,6 @@
 {% set name = "seamm-dashboard" %}
-{% set version = "2024.1.1" %}
-{% set sha256 = "7b204c09274d8e13b49df5276e4b354e5742bef8773e0bcaeaa6c7580ffa7f26" %}
+{% set version = "2024.3.27" %}
+{% set sha256 = "85a132e0ea781421699a67522453e69ab64b7bce46e70dab624104d17d1aa1e9" %}
 
 package:
   name: {{ name|lower }}
@@ -21,14 +21,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.11
     - setuptools
   run:
     - python >=3.8
-    - connexion >=2.7
+    - connexion >=2.7,<3.0
     - email-validator
     - fasteners
-    - flask >2.0
+    - flask >2.0,<3.0
     - flask-authorize
     - flask-bootstrap
     - flask-cors
