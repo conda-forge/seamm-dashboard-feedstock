@@ -1,6 +1,6 @@
 {% set name = "seamm-dashboard" %}
-{% set version = "2024.3.27" %}
-{% set sha256 = "85a132e0ea781421699a67522453e69ab64b7bce46e70dab624104d17d1aa1e9" %}
+{% set version = "2024.5.24" %}
+{% set sha256 = "8c0d33c58acb2c7324c19264ca00eecbd3baeef76253bf050045666ae71694a8" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
     - setuptools
   run:
     - python >=3.8
-    - connexion >=2.7,<3.0
+    - connexion >2.7,<3.0
     - email-validator
     - fasteners
     - flask >2.0,<3.0
