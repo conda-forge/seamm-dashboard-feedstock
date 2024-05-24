@@ -24,7 +24,7 @@ requirements:
     - python >=3.11
     - setuptools
   run:
-    - python >=3.8
+    - python >=3.11
     - connexion >2.7,<3.0
     - email-validator
     - fasteners
@@ -58,7 +58,7 @@ test:
 
 about:
   home: https://github.com/molssi-seamm/seamm_dashboard
-  summary: A Python package for handling the SEAMM Dashboard database
+  summary: A Python package for the SEAMM Dashboard
   license: BSD-3-Clause
   license_file: LICENSE
   doc_url: https://molssi-seamm.github.io/seamm/
