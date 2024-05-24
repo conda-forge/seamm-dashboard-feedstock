@@ -7,7 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/seamm-dashboard/seamm-dashboard-{{ version }}.tar.gz
+  # url: https://pypi.io/packages/source/s/seamm-dashboard/seamm-dashboard-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/4f/b6/126bc7aed2de057ffe253d0400528930183880bb1824e6a49a107d40090c/seamm_dashboard-2024.5.24.tar.gz
   sha256: {{ sha256 }}
 
 build:
