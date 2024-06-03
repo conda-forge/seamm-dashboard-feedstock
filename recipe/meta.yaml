@@ -1,6 +1,6 @@
 {% set name = "seamm-dashboard" %}
-{% set version = "2024.5.24" %}
-{% set sha256 = "8c0d33c58acb2c7324c19264ca00eecbd3baeef76253bf050045666ae71694a8" %}
+{% set version = "2024.6.2" %}
+{% set sha256 = "fb98a83317d87f677138b93a0dfd0fe3b2c7f2d2df83fdaf54caa113fcf5d530" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   # url: https://pypi.io/packages/source/s/seamm-dashboard/seamm-dashboard-{{ version }}.tar.gz
-  url: https://files.pythonhosted.org/packages/4f/b6/126bc7aed2de057ffe253d0400528930183880bb1824e6a49a107d40090c/seamm_dashboard-2024.5.24.tar.gz
+  url: https://files.pythonhosted.org/packages/54/4c/97046ad73f78f3e0504437c4f14f6ad0066f75c1132f3635f65fe492389a/seamm_dashboard-2024.6.2.tar.gz
   sha256: {{ sha256 }}
 
 build:
