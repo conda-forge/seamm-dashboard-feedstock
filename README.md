@@ -7,7 +7,7 @@ Home: https://github.com/molssi-seamm/seamm_dashboard
 
 Package license: BSD-3-Clause
 
-Summary: A Python package for handling the SEAMM Dashboard database
+Summary: A Python package for the SEAMM Dashboard
 
 Documentation: https://molssi-seamm.github.io/seamm/
 
